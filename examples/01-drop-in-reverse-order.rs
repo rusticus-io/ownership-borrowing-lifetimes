@@ -19,25 +19,25 @@ fn main() { // main stack frame
         { // new stack frame
             let _a = A( "a" );
             let _b = A( "b" );
-            println!("wait 5 secs");
-            sleep(Duration::from_secs(5));
-            println!("before stack frame ends");
+            wait("before stack frame ends");
         } // stack frame ends
         // drop of b
         // drop of a
         println!("after stack frame ends");
 
-        println!("wait 5 secs");
-        sleep(Duration::from_secs(5));
-        println!("before stack frame ends");
+        wait("before stack frame ends");
     } // stack frame ends
     // drop of z
     // drop of y
     // drop of x
     println!("after stack frame ends");
 
+    wait("before main stack frame ends");
+    println!("then drop of e1 and e2 in reverse order");
+}
+
+fn wait(message: &str) {
     println!("wait 5 secs");
     sleep(Duration::from_secs(5));
-    println!("before main stack frame ends");
-    println!("then drop of e1 and e2 in reverse order");
+    println!("{}", message);
 }
