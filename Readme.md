@@ -18,7 +18,7 @@ This workshop took place on May, 15th 2019 in Stuttgart.
 
 I'm currently preparing an explanatory video to show more precisely my thoughts on this topic.
 
-Follow me on Twitter (@thinkrapido) for updates.
+I will announce this video on twitter (@rustlang + #rustlang).
 
 Yours,
 
