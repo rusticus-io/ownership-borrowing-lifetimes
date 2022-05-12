@@ -1,14 +1,14 @@
 # Workshop on Ownership, Borrowing, and Lifetimes
 
-Dear Rusticeans,
+Dear Rustaceans,
 
 I'd like to show you that it doesn't take a lifetime to understand lifetimes in Rust.
 
-This workshop provides you with a mental model to handle all of the beginners questions
+This workshop provides you with a mental model to handle all of the beginner questions
 and obstacles when you start out learning Rust.
 
 You just need a solid understanding of the Stack and the Heap concepts as an entry
-point to Rust. The mechanics of the former is key on you learning path.
+point to Rust. The mechanics of the former is key on your learning path.
 
 To achieve this, we need to step back from the steep learning curve and take pen and paper into
 our hands. Prepared with this knowledge the learning curve is much easier to master and
